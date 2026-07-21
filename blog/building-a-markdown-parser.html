@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Building a Lightweight Markdown Parser | Adrit Dutta</title>
+    <meta name="description" content="How the custom parser converts markdown to safe static HTML.">
+    <link rel="stylesheet" href="../css/styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="../index.html" aria-label="Homepage">Adrit Dutta</a>
+        <button class="menu-toggle" aria-expanded="false" aria-controls="primary-nav">Menu</button>
+        <nav id="primary-nav" class="primary-nav" aria-label="Main navigation">
+          <ul>
+            <li><a  href="../index.html">Home</a></li>
+            <li><a aria-current="page" href="../index.html#posts">Posts</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main id="main-content" class="post-layout">
+      <div class="container">
+        <article class="post-article">
+          <header>
+            <h1>Building a Lightweight Markdown Parser</h1>
+            <p class="meta">Published July 23, 2026</p>
+            <div class="tags" aria-label="Tags"><span class="tag">javascript</span><span class="tag">markdown</span><span class="tag">tooling</span></div>
+          </header>
+          <p>The build script walks through the <code>posts/</code> directory and generates full post pages.</p>
+<h2>Supported blocks</h2>
+<ol><li>Headings</li><li>Paragraphs</li><li>Lists</li><li>Blockquotes</li><li>Code blocks</li></ol>
+<h2>Table support</h2>
+<table><thead><tr><th>Feature</th><th>Supported</th></tr></thead><tbody><tr><td>Headings</td><td>Yes</td></tr><tr><td>Tables</td><td>Yes</td></tr><tr><td>Libraries</td><td>No</td></tr></tbody></table>
+<p><img src="../image_web.png" alt="Workspace illustration"></p>
+<p>The parser uses plain Node.js and no external dependencies.</p>
+          <nav class="post-nav" aria-label="Post navigation">
+            <a rel="prev" href="welcome-to-my-blog.html">Previous: Welcome to My Blog</a>
+            
+          </nav>
+        </article>
+      </div>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p><span id="copyright-year"></span> Adrit Dutta</p>
+        <a href="../index.html#posts">Browse all posts</a>
+      </div>
+    </footer>
+    <script src="../js/site.js" defer></script>
+  </body>
+</html>

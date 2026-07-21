@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Welcome to My Blog | Adrit Dutta</title>
+    <meta name="description" content="A quick overview of how this dependency-free static blog works.">
+    <link rel="stylesheet" href="../css/styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="../index.html" aria-label="Homepage">Adrit Dutta</a>
+        <button class="menu-toggle" aria-expanded="false" aria-controls="primary-nav">Menu</button>
+        <nav id="primary-nav" class="primary-nav" aria-label="Main navigation">
+          <ul>
+            <li><a  href="../index.html">Home</a></li>
+            <li><a aria-current="page" href="../index.html#posts">Posts</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main id="main-content" class="post-layout">
+      <div class="container">
+        <article class="post-article">
+          <header>
+            <h1>Welcome to My Blog</h1>
+            <p class="meta">Published July 22, 2026</p>
+            <div class="tags" aria-label="Tags"><span class="tag">intro</span><span class="tag">static-site</span></div>
+          </header>
+          <p>This site is generated from Markdown into static HTML.</p>
+<h2>Why this approach</h2>
+<ul><li>Fast pages</li><li>No client-side framework</li><li>Easy deployment on GitHub Pages</li></ul>
+<h2>Syntax support</h2>
+<p>The parser supports <strong>bold</strong>, <em>italic</em>, and <code>inline code</code>.</p>
+<blockquote><p>Simple tools and clear structure usually age better.</p></blockquote>
+<hr>
+<h3>Example code block</h3>
+<pre><code class="language-js">function greet(name) {
+  return `Hello, ${name}!`;
+}</code></pre>
+<p>Read the <a href="../index.html#posts">posts section</a> to explore more posts.</p>
+          <nav class="post-nav" aria-label="Post navigation">
+            
+            <a rel="next" href="building-a-markdown-parser.html">Next: Building a Lightweight Markdown Parser</a>
+          </nav>
+        </article>
+      </div>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p><span id="copyright-year"></span> Adrit Dutta</p>
+        <a href="../index.html#posts">Browse all posts</a>
+      </div>
+    </footer>
+    <script src="../js/site.js" defer></script>
+  </body>
+</html>

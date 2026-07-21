@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Adrit Dutta | Personal Blog</title>
+    <meta name="description" content="Personal blog and writing archive by Adrit Dutta.">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html" aria-label="Homepage">Adrit Dutta</a>
+        <button class="menu-toggle" aria-expanded="false" aria-controls="primary-nav">Menu</button>
+        <nav id="primary-nav" class="primary-nav" aria-label="Main navigation">
+          <ul>
+            <li><a aria-current="page" href="index.html">Home</a></li>
+            <li><a href="#posts">Posts</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section class="hero">
+        <div class="container">
+          <p class="eyebrow">Personal Blog</p>
+          <h1>Thoughtful writing on engineering, systems, and web craft.</h1>
+          <p class="lead">
+            This site is generated as static HTML for speed, accessibility, and resilience.
+          </p>
+          <a class="button" href="#posts">Read Posts</a>
+        </div>
+      </section>
+
+      <section id="posts" class="section">
+        <div class="container">
+          <div class="section-heading">
+            <h2>Latest Posts</h2>
+          </div>
+          <label class="search-label" for="post-search">Search posts</label>
+          <input
+            id="post-search"
+            class="search-input"
+            type="search"
+            placeholder="Search by title, description, or tag"
+            autocomplete="off"
+          >
+          <p id="post-results-count" class="meta" aria-live="polite"></p>
+          <ul id="post-list" class="post-list"></ul>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section-heading">
+            <h2>About</h2>
+          </div>
+          <p>
+            I am a software engineer focused on building reliable products and maintainable frontend systems.
+            This blog documents practical lessons from building on the web.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p><span id="copyright-year"></span> Adrit Dutta</p>
+        <a href="#posts">Browse all posts</a>
+      </div>
+    </footer>
+
+    <script src="js/site.js" defer></script>
+  </body>
+</html>

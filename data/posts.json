@@ -1,0 +1,27 @@
+[
+  {
+    "title": "Building a Lightweight Markdown Parser",
+    "slug": "building-a-markdown-parser",
+    "date": "2026-07-23T00:00:00.000Z",
+    "description": "How the custom parser converts markdown to safe static HTML.",
+    "tags": [
+      "javascript",
+      "markdown",
+      "tooling"
+    ],
+    "contentHtml": "<p>The build script walks through the <code>posts/</code> directory and generates full post pages.</p>\n<h2>Supported blocks</h2>\n<ol><li>Headings</li><li>Paragraphs</li><li>Lists</li><li>Blockquotes</li><li>Code blocks</li></ol>\n<h2>Table support</h2>\n<table><thead><tr><th>Feature</th><th>Supported</th></tr></thead><tbody><tr><td>Headings</td><td>Yes</td></tr><tr><td>Tables</td><td>Yes</td></tr><tr><td>Libraries</td><td>No</td></tr></tbody></table>\n<p><img src=\"../image_web.png\" alt=\"Workspace illustration\"></p>\n<p>The parser uses plain Node.js and no external dependencies.</p>",
+    "url": "blog/building-a-markdown-parser.html"
+  },
+  {
+    "title": "Welcome to My Blog",
+    "slug": "welcome-to-my-blog",
+    "date": "2026-07-22T00:00:00.000Z",
+    "description": "A quick overview of how this dependency-free static blog works.",
+    "tags": [
+      "intro",
+      "static-site"
+    ],
+    "contentHtml": "<p>This site is generated from Markdown into static HTML.</p>\n<h2>Why this approach</h2>\n<ul><li>Fast pages</li><li>No client-side framework</li><li>Easy deployment on GitHub Pages</li></ul>\n<h2>Syntax support</h2>\n<p>The parser supports <strong>bold</strong>, <em>italic</em>, and <code>inline code</code>.</p>\n<blockquote><p>Simple tools and clear structure usually age better.</p></blockquote>\n<hr>\n<h3>Example code block</h3>\n<pre><code class=\"language-js\">function greet(name) {\n  return `Hello, ${name}!`;\n}</code></pre>\n<p>Read the <a href=\"../index.html#posts\">posts section</a> to explore more posts.</p>",
+    "url": "blog/welcome-to-my-blog.html"
+  }
+]

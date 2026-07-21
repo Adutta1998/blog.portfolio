@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+  <title>Adrit Dutta Blog</title>
+  <link>https://adutta.top</link>
+  <description>Personal blog and writing archive by Adrit Dutta.</description>
+  <item>
+  <title>Building a Lightweight Markdown Parser</title>
+  <link>https://adutta.top/blog/building-a-markdown-parser.html</link>
+  <guid>https://adutta.top/blog/building-a-markdown-parser.html</guid>
+  <pubDate>Thu, 23 Jul 2026 00:00:00 GMT</pubDate>
+  <description>How the custom parser converts markdown to safe static HTML.</description>
+</item>
+<item>
+  <title>Welcome to My Blog</title>
+  <link>https://adutta.top/blog/welcome-to-my-blog.html</link>
+  <guid>https://adutta.top/blog/welcome-to-my-blog.html</guid>
+  <pubDate>Wed, 22 Jul 2026 00:00:00 GMT</pubDate>
+  <description>A quick overview of how this dependency-free static blog works.</description>
+</item>
+</channel>
+</rss>
