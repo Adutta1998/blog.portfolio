@@ -1,4 +1,4 @@
-````markdown
+
 ---
 title: "Prompt Engineering for Modern Software Development"
 date: "2026-07-22"
@@ -252,5 +252,4 @@ As AI tools continue to evolve, developers who master prompt engineering will be
 
 The future of software development is not about replacing developers with AI—it's about empowering developers to build better software together with AI.
 
-```
-```
+
