@@ -9,8 +9,8 @@ const blogDir = path.join(rootDir, "blog");
 const dataDir = path.join(rootDir, "data");
 
 const config = {
-  siteTitle: "Adrit Dutta",
-  siteDescription: "Personal blog and writing archive by Adrit Dutta.",
+  siteTitle: "Avinaba Dutta",
+  siteDescription: "Personal blog and writing archive by Avinaba Dutta.",
   siteUrl: process.env.SITE_URL || "https://adutta.top",
   postsPath: "blog"
 };

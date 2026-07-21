@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
 <channel>
-  <title>Adrit Dutta Blog</title>
+  <title>Avinaba Dutta Blog</title>
   <link>https://adutta.top</link>
-  <description>Personal blog and writing archive by Adrit Dutta.</description>
+  <description>Personal blog and writing archive by Avinaba Dutta.</description>
   <item>
   <title>Building a Lightweight Markdown Parser</title>
   <link>https://adutta.top/blog/building-a-markdown-parser.html</link>
