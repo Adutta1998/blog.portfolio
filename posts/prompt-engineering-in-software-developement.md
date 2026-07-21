@@ -1,4 +1,3 @@
-
 ---
 title: "Prompt Engineering for Modern Software Development"
 date: "2026-07-22"
